@@ -223,6 +223,12 @@ header {
     background-size: cover;
    
 }
+.bg-imgc {
+    background-image: url(../images/cimg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
 
 .tagline {
     font-size: 23px;
@@ -510,7 +516,7 @@ header {
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
+    border-color: #2f3d44 #faf6fb #FFF;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
     color: #ff9207;
 }
@@ -591,7 +597,7 @@ header {
 }
 
 .social-icons a {
-    background-color: #FFF;
+    background-color: #ff9207;
     box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.05);
     width: 50px;
     height: 50px;
@@ -600,13 +606,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #ffffff;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #20468c;
 }
 
 @media (max-width:991px) {
