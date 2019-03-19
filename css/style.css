@@ -123,6 +123,17 @@ p.lead {
     padding: 0.8rem 1rem;
     font-size: 15px;
 }
+.btn-round{
+  position: relative;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 1000px;
+  border: 1px solid #373056;
+  height: 45px;
+  width: 45px;
+  background-color: #373056;
+}
+
 
 .light-bg {
     background-color: #faf6fb;
