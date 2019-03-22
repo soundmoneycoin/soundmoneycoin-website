@@ -110,7 +110,9 @@ $(function() {
     }
 
 }); 
-
+    /*-----------------------------------
+     *  COPY CLIPBOARD
+     *-----------------------------------*/
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
@@ -122,4 +124,20 @@ function copyToClipboard(element) {
   document.execCommand("copy");
   $temp.remove();
 } 
+    /*-----------------------------------
+     * SCROLLTOP
+     *-----------------------------------*/
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
 /* End Fn */
