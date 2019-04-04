@@ -24,6 +24,7 @@
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/roadmap.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -71,7 +72,7 @@
     </header>
 
     <div class="client-logos my-5">
-        <div class="container text-center">
+        <div class="container text-center" style="display: flex;">
             <div class="slider">
     <div class="slide-track">
         <div class="slide">
@@ -354,55 +355,99 @@
                 <h3>ROADMAP</h3>
             </div>
 
-            <div class="testimonials owl-carousel">
-                <div class="testimonials-single">
-                    <img src="images/roadmap/client.png" alt="client" class="client-img">
-                    <h5 class="mt-4 mb-2">March 8th, 2019</h5>
-                    <blockquote class="blockquote">On this historic day, Saifedeous von Mises deploys the SOV Coin smart contract. It is widely ignored and even mocked by the cryptocurrency community. For the first few weeks, anyone can mint SOV for near-free.</blockquote>
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/roadmap/minted.png" alt="client" class="client-img">
-                      <h5 class="mt-4 mb-2">March 2019</h5>
-                    <p class="text-primary">Initial mining</p>
-                    <blockquote class="blockquote">An increasing number of users mint SOV Coin. Some smart users figure out ways of automating the mining process. As demand for SOV Coin increase, miners compete to get their minting transaction executed first into the next block. The gas price set my miners increases continually in lock step with the SOV market price.</blockquote>
-                    
-                </div>
-             <div class="testimonials-single">
-                    <img src="images/roadmap/exchange.png" alt="client" class="client-img">
-                    <h5 class="mt-4 mb-2">Q4 2019 </h5>
-                    <p class="text-primary">Exchange listing</p>
-                    <blockquote class="blockquote">SOV coin gets listed on a centralized exchange. Liquidity and trading volume increases. The crypto community slowly wakes up to the SOV coin's value proposition, driving up prices. The Ethereum community realizes that it is necessary to split the computation fee and store-of-value use-cases into separate assets.</blockquote>
-                    
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/roadmap/ETH_sov.png" alt="client" class="client-img">
-                     <h5 class="mt-4 mb-2">2021</h5>
-                    <p class="text-primary">SOV Coins becomes Ethereum's secondary block reward</p>
-                    <blockquote class="blockquote">Miners decide - with the support of the Ethereum community - to automatically insert a SOV coin minting transaction as the first transaction in every block. From this point on, SOV will be paid as a secondary block reward. This also takes unnecessary load off the Ethereum network.</blockquote>
-                   
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/roadmap/btc_vs_sov.png" alt="client" class="client-img">
-                      <h5 class="mt-4 mb-2">2022 - 2024</h5>
-                    <p class="text-primary">Bitcoin vs. Sound Money Coin wars</p>
-                    <blockquote class="blockquote">The Ethereum community recognizes SOV coin as a primary store of value of the decentralized finance infrastructure. Market cap appreciates heavily. Bitcoin and Sound Money Coin are fighting for the position of global crypto reserve currency. Bitcoin mining power decreases after the 2024 halvening, causing initial discussions about changing the monetary policy.</blockquote>
-                  
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/roadmap/flipp.png" alt="client" class="client-img">
-                      <h5 class="mt-4 mb-2">2028</h5>
-                    <p class="text-primary">The Flippening</p>
-                    <blockquote class="blockquote">The 2028 halvening causes serious unrest in the Bitcoin community and a sizeable part of BTC miners and community demand the supply cap being lifted. At this point, public confidence into Bitcoin's monetary policy is irreparably damaged, and value increasingly flows from Bitcoin into Sound Money Coin.</blockquote>
-                  
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/roadmap/global.png" alt="client" class="client-img">
-                     <h5 class="mt-4 mb-2">2035</h5>
-                    <p class="text-primary">Global Reserve Currency</p>
-                    <blockquote class="blockquote">By 2035, the Ethereum blockchain will be the basis of the world's financial infrastructure and SOV Coin will play the role of gold. At this point, SOV Coin marketcap will be around $7 trillion = $700k per 1 SOV. It will be commonplace for banks and governments to buy SOV Coin reserves.</blockquote>
-                   
-                </div>
-            </div>
+            
+             <section class="cd-horizontal-timeline">
+    <div class="timeline">
+        <div class="events-wrapper">
+            <div class="events">
+                
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/01/2017" class="selected">8 Mar</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/09/2017">Mar 2019</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/12/2017">Q4 2019</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/03/2018">2021</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="09/05/2018">2022/24</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/01/2019">2028</a></li>
+                    <li style="color: #faf6fb;"><a href="#0" data-date="01/01/2020">2035</a></li>
+               
+
+                <span class="filling-line" aria-hidden="true"></span>
+            </div> <!-- .events -->
+        </div> <!-- .events-wrapper -->
+            
+        <ul class="cd-timeline-navigation">
+            <li style="color: #faf6fb;"><a href="#0" class="prev inactive">Prev</a></li>
+            <li style="color: #faf6fb;"><a href="#0" class="next">Next</a></li>
+        </ul> <!-- .cd-timeline-navigation -->
+    </div> <!-- .timeline -->
+
+    <div class="events-content" style="padding-left: 130px;">
+      
+            <li style="color: #faf6fb;" class="selected" data-date="01/01/2017">
+                <img src="images/roadmap/client.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">Beginning of SOV</h3>
+                <em style="color: #ffc48a;">March 8th, 2019</em>
+                <p> 
+                    On this historic day, Saifedeous von Mises deploys the SOV Coin smart contract. It is widely ignored and even mocked by the cryptocurrency community. For the first few weeks, anyone can mint SOV for near-free.
+                </p>
+            </li>
+
+            <li style="color: #faf6fb;" data-date="01/09/2017">
+                <img src="images/roadmap/minted.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">Initial Mining</h3>
+                <em style="color: #ffc48a;">March 2019</em>
+                <p> 
+                    An increasing number of users mint SOV Coin. Some smart users figure out ways of automating the mining process. As demand for SOV Coin increase, miners compete to get their minting transaction executed first into the next block. The gas price set my miners increases continually in lock step with the SOV market price.
+                </p>
+            </li>
+
+            <li data-date="01/12/2017">
+                <img src="images/roadmap/exchange.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">Exchange listing</h3>
+                <em style="color: #ffc48a;">Q4 2019</em>
+                <p> 
+                    SOV coin gets listed on a centralized exchange. Liquidity and trading volume increases. The crypto community slowly wakes up to the SOV coin's value proposition, driving up prices. The Ethereum community realizes that it is necessary to split the computation fee and store-of-value use-cases into separate assets.
+                </p>
+            </li>
+
+            <li data-date="01/03/2018">
+                <img src="images/roadmap/ETH_sov.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">SOV becomes Eth secondary block reward</h3>
+                <em style="color: #ffc48a;">2021</em>
+                <p> 
+                    Miners decide - with the support of the Ethereum community - to automatically insert a SOV coin minting transaction as the first transaction in every block. From this point on, SOV will be paid as a secondary block reward. This also takes unnecessary load off the Ethereum network.
+                </p>
+            </li>
+
+            <li data-date="09/05/2018">
+                <img src="images/roadmap/btc_vs_sov.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">Bitcoin vs. Sound Money Coin wars</h3>
+                <em style="color: #ffc48a;">2022 - 2024</em>
+                <p> 
+                    The Ethereum community recognizes SOV coin as a primary store of value of the decentralized finance infrastructure. Market cap appreciates heavily. Bitcoin and Sound Money Coin are fighting for the position of global crypto reserve currency. Bitcoin mining power decreases after the 2024 halvening, causing initial discussions about changing the monetary policy.
+                </p>
+            </li>
+
+            <li data-date="01/01/2019">
+                <img src="images/roadmap/flipp.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">The Flippening</h3>
+                <em style="color: #ffc48a;">2028</em>
+                <p> 
+                    The 2028 halvening causes serious unrest in the Bitcoin community and a sizeable part of BTC miners and community demand the supply cap being lifted. At this point, public confidence into Bitcoin's monetary policy is irreparably damaged, and value increasingly flows from Bitcoin into Sound Money Coin.
+                </p>
+            </li>
+
+            <li data-date="01/01/2020">
+                <img src="images/roadmap/global.png" style="border-radius: 50%; float: left">
+                <h3 style="color: #ff9207; font-weight: 600;">Global Reserve Currency</h3>
+                <em style="color: #ffc48a;">2035</em>
+                <p> 
+                    LBy 2035, the Ethereum blockchain will be the basis of the world's financial infrastructure and SOV Coin will play the role of gold. At this point, SOV Coin marketcap will be around $7 trillion = $700k per 1 SOV. It will be commonplace for banks and governments to buy SOV Coin reserves.
+                </p>
+            </li>
+
+    
+    </div>
+</section>
 
         </div>
 
